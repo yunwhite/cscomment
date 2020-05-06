@@ -10,6 +10,21 @@ namespace cscomment
     {
         static void Main(string[] args)
         {
+            int x, y;
+            x = 10;
+            y = 2;
+
+            if (x > 4)
+            {
+                if (y > 2)
+                {
+                    Console.WriteLine(x * y);
+                }
+            }
+            else
+            {
+                Console.WriteLine();
+            }
         }
     }
 }
